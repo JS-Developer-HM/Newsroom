@@ -1,0 +1,40 @@
+header.top-header {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/imgs/header.jpg") center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 10px;
+}
+header.top-header .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 65, 90, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+header.top-header .content {
+  position: relative;
+  z-index: 1;
+}
+header.top-header .navbar .nav-item {
+  margin-left: 2.5rem;
+}
+header.top-header .navbar .nav-item .nav-link {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffffff;
+}
+header.top-header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: url(/img/wave.f615ce92.svg) no-repeat bottom center;
+  height: 300px;
+  bottom: 0;
+}
